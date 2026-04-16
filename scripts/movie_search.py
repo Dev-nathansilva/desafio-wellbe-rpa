@@ -143,7 +143,7 @@ def search_avengers_and_save():
         saved_count = save_movies_to_db(movies, SEARCH_TERM)
 
         log(f"Filmes encontrados: {len(movies)}")
-        log(f"Filmes salvos no banco: {saved_count}")
+        log(f"Filmes salvos no banco: {saved_count} - (obs: se não for salvo, já existe no banco)")
 
         for movie in movies:
             print("-" * 60)
