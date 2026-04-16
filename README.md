@@ -76,15 +76,25 @@ desafio-wellbe-rpa/
 
 ## 🚀 Como executar o projeto
 
-### 1. Criar ambiente virtual
+
+
+### 1. Clonar o repositório
+
+Para iniciar o projeto, clone este repositório em sua máquina local:
 
 ```bash
-python -m venv .venv
+git clone https://github.com/Dev-nathansilva/desafio-wellbe-rpa.git
+```
+
+### 2. Acessar a pasta do projeto
+
+```bash
+cd desafio-wellbe-rpa
 ```
 
 ---
 
-### 2. Ativar ambiente
+### 3. Ativar ambiente
 
 **Windows:**
 
@@ -100,7 +110,7 @@ source .venv/bin/activate
 
 ---
 
-### 3. Instalar dependências
+### 4. Instalar dependências
 
 ```bash
 pip install -r requirements.txt
@@ -108,7 +118,7 @@ pip install -r requirements.txt
 
 ---
 
-### 4. Configurar banco de dados
+### 5. Configurar banco de dados
 
 Criar banco:
 
@@ -124,7 +134,7 @@ scripts/db.py
 
 ---
 
-### 5. Executar pipeline completo
+### 6. Executar pipeline completo
 
 ```bash
 python scripts/main.py
